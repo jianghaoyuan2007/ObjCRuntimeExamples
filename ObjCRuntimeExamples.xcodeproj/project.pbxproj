@@ -22,6 +22,12 @@
 		2C63FFC120BD0FF8006EE6D8 /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFC020BD0FF8006EE6D8 /* EOCAutoDictionary.m */; };
 		2C63FFC320BD23FB006EE6D8 /* Pasted Graphic.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFC220BD23FB006EE6D8 /* Pasted Graphic.tiff */; };
 		2C63FFC620BD2441006EE6D8 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFC520BD2441006EE6D8 /* NSObject+KVO.m */; };
+		2C63FFC920BD2A15006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFC820BD2A15006EE6D8 /* README.md */; };
+		2C63FFCC20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFCB20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m */; };
+		2C63FFCE20BD2C26006EE6D8 /* AssociatedObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFCD20BD2C26006EE6D8 /* AssociatedObjectTests.m */; };
+		2C63FFD020BD2C67006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFCF20BD2C67006EE6D8 /* README.md */; };
+		2C63FFD220BD2E00006EE6D8 /* KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFD120BD2E00006EE6D8 /* KVOTests.m */; };
+		2C63FFD420BD2E70006EE6D8 /* KVOImplementationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFD320BD2E70006EE6D8 /* KVOImplementationTests.m */; };
 		7A4230B8951A6F1B1044A7C9 /* libPods-ObjCRuntimeExamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BC970F20ECFCFADFB3ADF /* libPods-ObjCRuntimeExamples.a */; };
 		B2DAC74BFA3DA264E4DC2CA9 /* libPods-ObjCRuntimeExamplesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3601C5CB7A450AC2A65B565A /* libPods-ObjCRuntimeExamplesTests.a */; };
 /* End PBXBuildFile section */
@@ -61,6 +67,13 @@
 		2C63FFC220BD23FB006EE6D8 /* Pasted Graphic.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic.tiff"; sourceTree = "<group>"; };
 		2C63FFC420BD2441006EE6D8 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
 		2C63FFC520BD2441006EE6D8 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		2C63FFC820BD2A15006EE6D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFCA20BD2B9D006EE6D8 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		2C63FFCB20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		2C63FFCD20BD2C26006EE6D8 /* AssociatedObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssociatedObjectTests.m; sourceTree = "<group>"; };
+		2C63FFCF20BD2C67006EE6D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFD120BD2E00006EE6D8 /* KVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTests.m; sourceTree = "<group>"; };
+		2C63FFD320BD2E70006EE6D8 /* KVOImplementationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOImplementationTests.m; sourceTree = "<group>"; };
 		3601C5CB7A450AC2A65B565A /* libPods-ObjCRuntimeExamplesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCRuntimeExamplesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		506BC970F20ECFCFADFB3ADF /* libPods-ObjCRuntimeExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCRuntimeExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A098BA3D546E7125E385667C /* Pods-ObjCRuntimeExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCRuntimeExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCRuntimeExamples/Pods-ObjCRuntimeExamples.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +140,7 @@
 		2C63FF9120BBF776006EE6D8 /* ObjCRuntimeExamplesTests */ = {
 			isa = PBXGroup;
 			children = (
+				2C63FFC720BD2A01006EE6D8 /* Associated Objects */,
 				2C63FFB320BD0DE5006EE6D8 /* Dynamic Property */,
 				2C63FFB720BD0DE5006EE6D8 /* KVC */,
 				2C63FFB620BD0DE5006EE6D8 /* KVO */,
@@ -171,6 +185,9 @@
 			children = (
 				2C63FFC420BD2441006EE6D8 /* NSObject+KVO.h */,
 				2C63FFC520BD2441006EE6D8 /* NSObject+KVO.m */,
+				2C63FFCF20BD2C67006EE6D8 /* README.md */,
+				2C63FFD120BD2E00006EE6D8 /* KVOTests.m */,
+				2C63FFD320BD2E70006EE6D8 /* KVOImplementationTests.m */,
 			);
 			path = KVO;
 			sourceTree = "<group>";
@@ -189,6 +206,17 @@
 				2C63FFBD20BD0E14006EE6D8 /* README.md */,
 			);
 			path = "Message Forwarding";
+			sourceTree = "<group>";
+		};
+		2C63FFC720BD2A01006EE6D8 /* Associated Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2C63FFC820BD2A15006EE6D8 /* README.md */,
+				2C63FFCA20BD2B9D006EE6D8 /* NSObject+AssociatedObject.h */,
+				2C63FFCB20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m */,
+				2C63FFCD20BD2C26006EE6D8 /* AssociatedObjectTests.m */,
+			);
+			path = "Associated Objects";
 			sourceTree = "<group>";
 		};
 		704FCA1CF5C7BF39EB2BFAAE /* Pods */ = {
@@ -303,8 +331,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C63FFD020BD2C67006EE6D8 /* README.md in Resources */,
 				2C63FFBE20BD0E14006EE6D8 /* README.md in Resources */,
 				2C63FFC320BD23FB006EE6D8 /* Pasted Graphic.tiff in Resources */,
+				2C63FFC920BD2A15006EE6D8 /* README.md in Resources */,
 				2C63FFBB20BD0DE5006EE6D8 /* README.md in Resources */,
 				2C63FFBA20BD0DE5006EE6D8 /* README.md in Resources */,
 			);
@@ -366,11 +396,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C63FFD220BD2E00006EE6D8 /* KVOTests.m in Sources */,
+				2C63FFCC20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m in Sources */,
 				2C63FFC120BD0FF8006EE6D8 /* EOCAutoDictionary.m in Sources */,
 				2C63FFB920BD0DE5006EE6D8 /* MethodSwizzlingTests.m in Sources */,
+				2C63FFCE20BD2C26006EE6D8 /* AssociatedObjectTests.m in Sources */,
 				2C63FFC620BD2441006EE6D8 /* NSObject+KVO.m in Sources */,
 				2C63FF9320BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m in Sources */,
 				2C63FFBC20BD0DE5006EE6D8 /* DynamicPropertyTests.m in Sources */,
+				2C63FFD420BD2E70006EE6D8 /* KVOImplementationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
