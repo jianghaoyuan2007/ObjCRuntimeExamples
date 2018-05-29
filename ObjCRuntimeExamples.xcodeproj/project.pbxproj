@@ -14,6 +14,16 @@
 		2C63FF8620BBF776006EE6D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FF8420BBF776006EE6D8 /* LaunchScreen.storyboard */; };
 		2C63FF8920BBF776006EE6D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FF8820BBF776006EE6D8 /* main.m */; };
 		2C63FF9320BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FF9220BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m */; };
+		2C63FFB920BD0DE5006EE6D8 /* MethodSwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFB120BD0DE5006EE6D8 /* MethodSwizzlingTests.m */; };
+		2C63FFBA20BD0DE5006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFB220BD0DE5006EE6D8 /* README.md */; };
+		2C63FFBB20BD0DE5006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFB420BD0DE5006EE6D8 /* README.md */; };
+		2C63FFBC20BD0DE5006EE6D8 /* DynamicPropertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFB520BD0DE5006EE6D8 /* DynamicPropertyTests.m */; };
+		2C63FFBE20BD0E14006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFBD20BD0E14006EE6D8 /* README.md */; };
+		2C63FFC120BD0FF8006EE6D8 /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFC020BD0FF8006EE6D8 /* EOCAutoDictionary.m */; };
+		2C63FFC320BD23FB006EE6D8 /* Pasted Graphic.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFC220BD23FB006EE6D8 /* Pasted Graphic.tiff */; };
+		2C63FFC620BD2441006EE6D8 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFC520BD2441006EE6D8 /* NSObject+KVO.m */; };
+		7A4230B8951A6F1B1044A7C9 /* libPods-ObjCRuntimeExamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BC970F20ECFCFADFB3ADF /* libPods-ObjCRuntimeExamples.a */; };
+		B2DAC74BFA3DA264E4DC2CA9 /* libPods-ObjCRuntimeExamplesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3601C5CB7A450AC2A65B565A /* libPods-ObjCRuntimeExamplesTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22CBECAE873B51792EFD6A1F /* Pods-ObjCRuntimeExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCRuntimeExamplesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCRuntimeExamplesTests/Pods-ObjCRuntimeExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C63FF7620BBF774006EE6D8 /* ObjCRuntimeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCRuntimeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C63FF7920BBF774006EE6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C63FF7A20BBF774006EE6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +51,21 @@
 		2C63FF8E20BBF776006EE6D8 /* ObjCRuntimeExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCRuntimeExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C63FF9220BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCRuntimeExamplesTests.m; sourceTree = "<group>"; };
 		2C63FF9420BBF776006EE6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C63FFB120BD0DE5006EE6D8 /* MethodSwizzlingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzlingTests.m; sourceTree = "<group>"; };
+		2C63FFB220BD0DE5006EE6D8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFB420BD0DE5006EE6D8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFB520BD0DE5006EE6D8 /* DynamicPropertyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicPropertyTests.m; sourceTree = "<group>"; };
+		2C63FFBD20BD0E14006EE6D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFBF20BD0FF8006EE6D8 /* EOCAutoDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
+		2C63FFC020BD0FF8006EE6D8 /* EOCAutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
+		2C63FFC220BD23FB006EE6D8 /* Pasted Graphic.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pasted Graphic.tiff"; sourceTree = "<group>"; };
+		2C63FFC420BD2441006EE6D8 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		2C63FFC520BD2441006EE6D8 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		3601C5CB7A450AC2A65B565A /* libPods-ObjCRuntimeExamplesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCRuntimeExamplesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506BC970F20ECFCFADFB3ADF /* libPods-ObjCRuntimeExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCRuntimeExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A098BA3D546E7125E385667C /* Pods-ObjCRuntimeExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCRuntimeExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCRuntimeExamples/Pods-ObjCRuntimeExamples.release.xcconfig"; sourceTree = "<group>"; };
+		A8B0161E06D24E7A67F41CF5 /* Pods-ObjCRuntimeExamplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCRuntimeExamplesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCRuntimeExamplesTests/Pods-ObjCRuntimeExamplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC7925EA29257B63468CC1A2 /* Pods-ObjCRuntimeExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCRuntimeExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCRuntimeExamples/Pods-ObjCRuntimeExamples.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4230B8951A6F1B1044A7C9 /* libPods-ObjCRuntimeExamples.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DAC74BFA3DA264E4DC2CA9 /* libPods-ObjCRuntimeExamplesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +94,8 @@
 				2C63FF7820BBF774006EE6D8 /* ObjCRuntimeExamples */,
 				2C63FF9120BBF776006EE6D8 /* ObjCRuntimeExamplesTests */,
 				2C63FF7720BBF774006EE6D8 /* Products */,
+				704FCA1CF5C7BF39EB2BFAAE /* Pods */,
+				E8F1D308E529C7A888F35E82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +127,88 @@
 		2C63FF9120BBF776006EE6D8 /* ObjCRuntimeExamplesTests */ = {
 			isa = PBXGroup;
 			children = (
+				2C63FFB320BD0DE5006EE6D8 /* Dynamic Property */,
+				2C63FFB720BD0DE5006EE6D8 /* KVC */,
+				2C63FFB620BD0DE5006EE6D8 /* KVO */,
+				2C63FFB820BD0DE5006EE6D8 /* Message Forwarding */,
+				2C63FFB020BD0DE5006EE6D8 /* Method Swizzling */,
+				2C63FFAF20BD0DE5006EE6D8 /* Multiple Inheritance */,
 				2C63FF9220BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m */,
 				2C63FF9420BBF776006EE6D8 /* Info.plist */,
 			);
 			path = ObjCRuntimeExamplesTests;
+			sourceTree = "<group>";
+		};
+		2C63FFAF20BD0DE5006EE6D8 /* Multiple Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Multiple Inheritance";
+			sourceTree = "<group>";
+		};
+		2C63FFB020BD0DE5006EE6D8 /* Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				2C63FFB120BD0DE5006EE6D8 /* MethodSwizzlingTests.m */,
+				2C63FFB220BD0DE5006EE6D8 /* README.md */,
+			);
+			path = "Method Swizzling";
+			sourceTree = "<group>";
+		};
+		2C63FFB320BD0DE5006EE6D8 /* Dynamic Property */ = {
+			isa = PBXGroup;
+			children = (
+				2C63FFB420BD0DE5006EE6D8 /* README.md */,
+				2C63FFB520BD0DE5006EE6D8 /* DynamicPropertyTests.m */,
+				2C63FFBF20BD0FF8006EE6D8 /* EOCAutoDictionary.h */,
+				2C63FFC020BD0FF8006EE6D8 /* EOCAutoDictionary.m */,
+			);
+			path = "Dynamic Property";
+			sourceTree = "<group>";
+		};
+		2C63FFB620BD0DE5006EE6D8 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				2C63FFC420BD2441006EE6D8 /* NSObject+KVO.h */,
+				2C63FFC520BD2441006EE6D8 /* NSObject+KVO.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		2C63FFB720BD0DE5006EE6D8 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		2C63FFB820BD0DE5006EE6D8 /* Message Forwarding */ = {
+			isa = PBXGroup;
+			children = (
+				2C63FFC220BD23FB006EE6D8 /* Pasted Graphic.tiff */,
+				2C63FFBD20BD0E14006EE6D8 /* README.md */,
+			);
+			path = "Message Forwarding";
+			sourceTree = "<group>";
+		};
+		704FCA1CF5C7BF39EB2BFAAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC7925EA29257B63468CC1A2 /* Pods-ObjCRuntimeExamples.debug.xcconfig */,
+				A098BA3D546E7125E385667C /* Pods-ObjCRuntimeExamples.release.xcconfig */,
+				22CBECAE873B51792EFD6A1F /* Pods-ObjCRuntimeExamplesTests.debug.xcconfig */,
+				A8B0161E06D24E7A67F41CF5 /* Pods-ObjCRuntimeExamplesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8F1D308E529C7A888F35E82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				506BC970F20ECFCFADFB3ADF /* libPods-ObjCRuntimeExamples.a */,
+				3601C5CB7A450AC2A65B565A /* libPods-ObjCRuntimeExamplesTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C63FF9720BBF776006EE6D8 /* Build configuration list for PBXNativeTarget "ObjCRuntimeExamples" */;
 			buildPhases = (
+				AAB67FEEC780F2D168BDA282 /* [CP] Check Pods Manifest.lock */,
 				2C63FF7220BBF774006EE6D8 /* Sources */,
 				2C63FF7320BBF774006EE6D8 /* Frameworks */,
 				2C63FF7420BBF774006EE6D8 /* Resources */,
@@ -127,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C63FF9A20BBF776006EE6D8 /* Build configuration list for PBXNativeTarget "ObjCRuntimeExamplesTests" */;
 			buildPhases = (
+				F5534A1A979FA31A3681594A /* [CP] Check Pods Manifest.lock */,
 				2C63FF8A20BBF776006EE6D8 /* Sources */,
 				2C63FF8B20BBF776006EE6D8 /* Frameworks */,
 				2C63FF8C20BBF776006EE6D8 /* Resources */,
@@ -193,10 +303,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C63FFBE20BD0E14006EE6D8 /* README.md in Resources */,
+				2C63FFC320BD23FB006EE6D8 /* Pasted Graphic.tiff in Resources */,
+				2C63FFBB20BD0DE5006EE6D8 /* README.md in Resources */,
+				2C63FFBA20BD0DE5006EE6D8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAB67FEEC780F2D168BDA282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjCRuntimeExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5534A1A979FA31A3681594A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjCRuntimeExamplesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C63FF7220BBF774006EE6D8 /* Sources */ = {
@@ -213,7 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C63FFC120BD0FF8006EE6D8 /* EOCAutoDictionary.m in Sources */,
+				2C63FFB920BD0DE5006EE6D8 /* MethodSwizzlingTests.m in Sources */,
+				2C63FFC620BD2441006EE6D8 /* NSObject+KVO.m in Sources */,
 				2C63FF9320BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m in Sources */,
+				2C63FFBC20BD0DE5006EE6D8 /* DynamicPropertyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +516,7 @@
 		};
 		2C63FF9820BBF776006EE6D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7925EA29257B63468CC1A2 /* Pods-ObjCRuntimeExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +534,7 @@
 		};
 		2C63FF9920BBF776006EE6D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A098BA3D546E7125E385667C /* Pods-ObjCRuntimeExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -393,6 +552,7 @@
 		};
 		2C63FF9B20BBF776006EE6D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CBECAE873B51792EFD6A1F /* Pods-ObjCRuntimeExamplesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +572,7 @@
 		};
 		2C63FF9C20BBF776006EE6D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B0161E06D24E7A67F41CF5 /* Pods-ObjCRuntimeExamplesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
