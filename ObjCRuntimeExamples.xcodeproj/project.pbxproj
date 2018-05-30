@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C53F74F20BE749700209F7B /* NSInvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F74E20BE749700209F7B /* NSInvocationTests.m */; };
+		2C53F75120BE8D4500209F7B /* RuntimeAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F75020BE8D4500209F7B /* RuntimeAPITests.m */; };
+		2C53F75320BE918F00209F7B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C53F75220BE918F00209F7B /* README.md */; };
+		2C53F75520BE926800209F7B /* MultipleInheritanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F75420BE926800209F7B /* MultipleInheritanceTests.m */; };
 		2C63FF7B20BBF774006EE6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FF7A20BBF774006EE6D8 /* AppDelegate.m */; };
 		2C63FF7E20BBF774006EE6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FF7D20BBF774006EE6D8 /* ViewController.m */; };
 		2C63FF8120BBF774006EE6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FF7F20BBF774006EE6D8 /* Main.storyboard */; };
@@ -28,6 +32,12 @@
 		2C63FFD020BD2C67006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFCF20BD2C67006EE6D8 /* README.md */; };
 		2C63FFD220BD2E00006EE6D8 /* KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFD120BD2E00006EE6D8 /* KVOTests.m */; };
 		2C63FFD420BD2E70006EE6D8 /* KVOImplementationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFD320BD2E70006EE6D8 /* KVOImplementationTests.m */; };
+		2C63FFD620BD3244006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFD520BD3244006EE6D8 /* README.md */; };
+		2C63FFD920BD333B006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFD820BD333B006EE6D8 /* README.md */; };
+		2C63FFDB20BD3350006EE6D8 /* OCMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFDA20BD3350006EE6D8 /* OCMockTests.m */; };
+		2C63FFDE20BD3EA7006EE6D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FFDD20BD3EA7006EE6D8 /* README.md */; };
+		2C63FFE020BE38CB006EE6D8 /* GettingStartedWithOCMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFDF20BE38CB006EE6D8 /* GettingStartedWithOCMockTests.m */; };
+		2C63FFE220BE700C006EE6D8 /* MessageForwardingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FFE120BE700C006EE6D8 /* MessageForwardingTests.m */; };
 		7A4230B8951A6F1B1044A7C9 /* libPods-ObjCRuntimeExamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BC970F20ECFCFADFB3ADF /* libPods-ObjCRuntimeExamples.a */; };
 		B2DAC74BFA3DA264E4DC2CA9 /* libPods-ObjCRuntimeExamplesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3601C5CB7A450AC2A65B565A /* libPods-ObjCRuntimeExamplesTests.a */; };
 /* End PBXBuildFile section */
@@ -44,6 +54,10 @@
 
 /* Begin PBXFileReference section */
 		22CBECAE873B51792EFD6A1F /* Pods-ObjCRuntimeExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCRuntimeExamplesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCRuntimeExamplesTests/Pods-ObjCRuntimeExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C53F74E20BE749700209F7B /* NSInvocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSInvocationTests.m; sourceTree = "<group>"; };
+		2C53F75020BE8D4500209F7B /* RuntimeAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeAPITests.m; sourceTree = "<group>"; };
+		2C53F75220BE918F00209F7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C53F75420BE926800209F7B /* MultipleInheritanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleInheritanceTests.m; sourceTree = "<group>"; };
 		2C63FF7620BBF774006EE6D8 /* ObjCRuntimeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCRuntimeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C63FF7920BBF774006EE6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C63FF7A20BBF774006EE6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +88,12 @@
 		2C63FFCF20BD2C67006EE6D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C63FFD120BD2E00006EE6D8 /* KVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTests.m; sourceTree = "<group>"; };
 		2C63FFD320BD2E70006EE6D8 /* KVOImplementationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOImplementationTests.m; sourceTree = "<group>"; };
+		2C63FFD520BD3244006EE6D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFD820BD333B006EE6D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFDA20BD3350006EE6D8 /* OCMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockTests.m; sourceTree = "<group>"; };
+		2C63FFDD20BD3EA7006EE6D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C63FFDF20BE38CB006EE6D8 /* GettingStartedWithOCMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GettingStartedWithOCMockTests.m; sourceTree = "<group>"; };
+		2C63FFE120BE700C006EE6D8 /* MessageForwardingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardingTests.m; sourceTree = "<group>"; };
 		3601C5CB7A450AC2A65B565A /* libPods-ObjCRuntimeExamplesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCRuntimeExamplesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		506BC970F20ECFCFADFB3ADF /* libPods-ObjCRuntimeExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCRuntimeExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A098BA3D546E7125E385667C /* Pods-ObjCRuntimeExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCRuntimeExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCRuntimeExamples/Pods-ObjCRuntimeExamples.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,8 +167,11 @@
 				2C63FFB820BD0DE5006EE6D8 /* Message Forwarding */,
 				2C63FFB020BD0DE5006EE6D8 /* Method Swizzling */,
 				2C63FFAF20BD0DE5006EE6D8 /* Multiple Inheritance */,
+				2C63FFD720BD3317006EE6D8 /* OCMock */,
+				2C63FFDC20BD3E8F006EE6D8 /* Runtime API */,
 				2C63FF9220BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m */,
 				2C63FF9420BBF776006EE6D8 /* Info.plist */,
+				2C63FFD520BD3244006EE6D8 /* README.md */,
 			);
 			path = ObjCRuntimeExamplesTests;
 			sourceTree = "<group>";
@@ -156,6 +179,8 @@
 		2C63FFAF20BD0DE5006EE6D8 /* Multiple Inheritance */ = {
 			isa = PBXGroup;
 			children = (
+				2C53F75220BE918F00209F7B /* README.md */,
+				2C53F75420BE926800209F7B /* MultipleInheritanceTests.m */,
 			);
 			path = "Multiple Inheritance";
 			sourceTree = "<group>";
@@ -204,6 +229,8 @@
 			children = (
 				2C63FFC220BD23FB006EE6D8 /* Pasted Graphic.tiff */,
 				2C63FFBD20BD0E14006EE6D8 /* README.md */,
+				2C63FFE120BE700C006EE6D8 /* MessageForwardingTests.m */,
+				2C53F74E20BE749700209F7B /* NSInvocationTests.m */,
 			);
 			path = "Message Forwarding";
 			sourceTree = "<group>";
@@ -217,6 +244,25 @@
 				2C63FFCD20BD2C26006EE6D8 /* AssociatedObjectTests.m */,
 			);
 			path = "Associated Objects";
+			sourceTree = "<group>";
+		};
+		2C63FFD720BD3317006EE6D8 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				2C63FFD820BD333B006EE6D8 /* README.md */,
+				2C63FFDF20BE38CB006EE6D8 /* GettingStartedWithOCMockTests.m */,
+				2C63FFDA20BD3350006EE6D8 /* OCMockTests.m */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		2C63FFDC20BD3E8F006EE6D8 /* Runtime API */ = {
+			isa = PBXGroup;
+			children = (
+				2C63FFDD20BD3EA7006EE6D8 /* README.md */,
+				2C53F75020BE8D4500209F7B /* RuntimeAPITests.m */,
+			);
+			path = "Runtime API";
 			sourceTree = "<group>";
 		};
 		704FCA1CF5C7BF39EB2BFAAE /* Pods */ = {
@@ -333,9 +379,13 @@
 			files = (
 				2C63FFD020BD2C67006EE6D8 /* README.md in Resources */,
 				2C63FFBE20BD0E14006EE6D8 /* README.md in Resources */,
+				2C53F75320BE918F00209F7B /* README.md in Resources */,
 				2C63FFC320BD23FB006EE6D8 /* Pasted Graphic.tiff in Resources */,
+				2C63FFD620BD3244006EE6D8 /* README.md in Resources */,
 				2C63FFC920BD2A15006EE6D8 /* README.md in Resources */,
 				2C63FFBB20BD0DE5006EE6D8 /* README.md in Resources */,
+				2C63FFDE20BD3EA7006EE6D8 /* README.md in Resources */,
+				2C63FFD920BD333B006EE6D8 /* README.md in Resources */,
 				2C63FFBA20BD0DE5006EE6D8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +449,16 @@
 				2C63FFD220BD2E00006EE6D8 /* KVOTests.m in Sources */,
 				2C63FFCC20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m in Sources */,
 				2C63FFC120BD0FF8006EE6D8 /* EOCAutoDictionary.m in Sources */,
+				2C63FFE020BE38CB006EE6D8 /* GettingStartedWithOCMockTests.m in Sources */,
+				2C53F74F20BE749700209F7B /* NSInvocationTests.m in Sources */,
+				2C53F75120BE8D4500209F7B /* RuntimeAPITests.m in Sources */,
 				2C63FFB920BD0DE5006EE6D8 /* MethodSwizzlingTests.m in Sources */,
 				2C63FFCE20BD2C26006EE6D8 /* AssociatedObjectTests.m in Sources */,
+				2C63FFE220BE700C006EE6D8 /* MessageForwardingTests.m in Sources */,
+				2C63FFDB20BD3350006EE6D8 /* OCMockTests.m in Sources */,
 				2C63FFC620BD2441006EE6D8 /* NSObject+KVO.m in Sources */,
 				2C63FF9320BBF776006EE6D8 /* ObjCRuntimeExamplesTests.m in Sources */,
+				2C53F75520BE926800209F7B /* MultipleInheritanceTests.m in Sources */,
 				2C63FFBC20BD0DE5006EE6D8 /* DynamicPropertyTests.m in Sources */,
 				2C63FFD420BD2E70006EE6D8 /* KVOImplementationTests.m in Sources */,
 			);
@@ -591,6 +647,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V455LT9HQ8;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ObjCRuntimeExamplesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,6 +668,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V455LT9HQ8;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ObjCRuntimeExamplesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
