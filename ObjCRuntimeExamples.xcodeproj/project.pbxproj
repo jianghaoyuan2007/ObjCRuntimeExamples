@@ -11,6 +11,7 @@
 		2C53F75120BE8D4500209F7B /* RuntimeAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F75020BE8D4500209F7B /* RuntimeAPITests.m */; };
 		2C53F75320BE918F00209F7B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C53F75220BE918F00209F7B /* README.md */; };
 		2C53F75520BE926800209F7B /* MultipleInheritanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F75420BE926800209F7B /* MultipleInheritanceTests.m */; };
+		2C53F79F20BFE53400209F7B /* NSObject+RunAtDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F79E20BFE53400209F7B /* NSObject+RunAtDealloc.m */; };
 		2C63FF7B20BBF774006EE6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FF7A20BBF774006EE6D8 /* AppDelegate.m */; };
 		2C63FF7E20BBF774006EE6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C63FF7D20BBF774006EE6D8 /* ViewController.m */; };
 		2C63FF8120BBF774006EE6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C63FF7F20BBF774006EE6D8 /* Main.storyboard */; };
@@ -58,6 +59,8 @@
 		2C53F75020BE8D4500209F7B /* RuntimeAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeAPITests.m; sourceTree = "<group>"; };
 		2C53F75220BE918F00209F7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C53F75420BE926800209F7B /* MultipleInheritanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleInheritanceTests.m; sourceTree = "<group>"; };
+		2C53F79D20BFE53400209F7B /* NSObject+RunAtDealloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RunAtDealloc.h"; sourceTree = "<group>"; };
+		2C53F79E20BFE53400209F7B /* NSObject+RunAtDealloc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RunAtDealloc.m"; sourceTree = "<group>"; };
 		2C63FF7620BBF774006EE6D8 /* ObjCRuntimeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCRuntimeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C63FF7920BBF774006EE6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C63FF7A20BBF774006EE6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 				2C63FFC820BD2A15006EE6D8 /* README.md */,
 				2C63FFCA20BD2B9D006EE6D8 /* NSObject+AssociatedObject.h */,
 				2C63FFCB20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m */,
+				2C53F79D20BFE53400209F7B /* NSObject+RunAtDealloc.h */,
+				2C53F79E20BFE53400209F7B /* NSObject+RunAtDealloc.m */,
 				2C63FFCD20BD2C26006EE6D8 /* AssociatedObjectTests.m */,
 			);
 			path = "Associated Objects";
@@ -449,6 +454,7 @@
 				2C63FFD220BD2E00006EE6D8 /* KVOTests.m in Sources */,
 				2C63FFCC20BD2B9D006EE6D8 /* NSObject+AssociatedObject.m in Sources */,
 				2C63FFC120BD0FF8006EE6D8 /* EOCAutoDictionary.m in Sources */,
+				2C53F79F20BFE53400209F7B /* NSObject+RunAtDealloc.m in Sources */,
 				2C63FFE020BE38CB006EE6D8 /* GettingStartedWithOCMockTests.m in Sources */,
 				2C53F74F20BE749700209F7B /* NSInvocationTests.m in Sources */,
 				2C53F75120BE8D4500209F7B /* RuntimeAPITests.m in Sources */,

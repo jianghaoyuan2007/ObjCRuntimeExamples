@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSObject+RunAtDealloc.h"
 
 @interface AssociatedObjectTests : XCTestCase
 
@@ -24,9 +25,16 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testRunAtDeallocBlockIsRunningAsExpectation {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"The expectation for runAtDealloc block."];
+    NSObject *object = [NSObject new];
+    [object runAtDealloc:^{
+        NSLog(@"The object is released.");
+        [expectation fulfill];
+        XCTAssertTrue(true);
+    }];
+    object = nil;
+    [self waitForExpectations:@[expectation] timeout:2];
 }
 
 
